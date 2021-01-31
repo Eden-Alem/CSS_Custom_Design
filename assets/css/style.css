@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&display=swap');
+
+/* removed the margin around the whole html page */
+* {
+	box-sizing: border-box;
+    margin: 0;
+}
+
+/* Using the properties position and border align the div elements in a creative way  */
+.box1 {
+    min-width: 100%;
+    min-height: 15rem;
+    opacity: 0.7;
+    border-left: 15rem solid rgb(255, 150, 66);
+    position: absolute;
+    z-index: 400;
+}
+
+.box2 {
+    width: 15rem;
+    min-width: 15rem;
+    height: 15rem;
+    min-height: 15rem;
+    opacity: 0.7;
+    border-bottom: 25rem solid rgb(18, 88, 184);
+    position: absolute;
+    z-index: 100;
+    top: 11em;
+}
+
+.box3 {
+    width: 15rem;
+    min-width: 15rem;
+    height: 18rem;
+    min-height: 18rem;
+    opacity: 0.7;
+    border-bottom: 20rem solid rgb(92, 178, 87);
+    position: absolute;
+    z-index: 350;
+    left: 8em;
+    top: 8em;
+    bottom: 17.5em;
+}
+
+.box4 {
+    width: 8rem;
+    min-width: 8rem;
+    height: 6rem;
+    min-height: 6rem;
+    opacity: 0.7;
+    border-bottom: 8rem solid rgb(255, 150, 66);
+    position: absolute;
+    border-top-right-radius: 100%;
+    z-index: 300;
+    left: 15em;
+    top: 28em;
+}
+
+.box5 {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    border-bottom: 38rem solid white;
+    background-color: white;
+    position: absolute;
+    z-index: 50;
+}
+
+.box6 {
+    position: absolute;
+    width: 212px;
+    min-width: 212px;
+    height: 100px;
+    min-height: 100px;
+    opacity: 0.7;
+    box-sizing: content-box;
+    z-index: 500;
+}
+
+.box6:before {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    opacity: 0.7;
+    top: 1.8em;
+    left: 16.3em;
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    border: 0.3rem solid rgb(168, 164, 164);
+    border-radius: 50%;
+    z-index: 500;
+}
+
+.box6:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    opacity: 0.7;
+    top: 2.7em;
+    left: 17.2em;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    min-height: 30px;
+    border: 0.3rem solid rgb(168, 164, 164);
+    border-radius: 50%;
+    z-index: 500;
+
+}
