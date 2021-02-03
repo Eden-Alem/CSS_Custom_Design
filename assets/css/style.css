@@ -110,3 +110,116 @@
     z-index: 500;
 
 }
+
+
+.box11 {
+    width: 24rem;
+    min-width: 24rem;
+    height: 6rem;
+    min-height: 6rem;
+    opacity: 0.7;
+    border-right: 23.6rem solid rgb(18, 88, 184);
+    position: absolute;
+    z-index: 400;
+    top: 36em;
+    right: 0;
+}
+
+.box22 {
+    width: 8rem;
+    min-width: 8rem;
+    height: 6.5rem;
+    min-height: 6.5rem;
+    opacity: 0.7;
+    border-bottom: 6rem solid rgb(92, 178, 87);
+    position: absolute;
+    border-top-left-radius: 100%;
+    z-index: 300;
+    right: 20.5em;
+    top: 35.5em;
+}
+
+.box33 {
+    position: absolute;
+    width: 212px;
+    min-width: 212px;
+    height: 100px;
+    min-height: 100px;
+    opacity: 0.7;
+    box-sizing: content-box;
+    z-index: 500;
+    right: 21.3em;
+}
+
+.box33:before {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    opacity: 0.7;
+    top: 40em;
+    right: 0.1em;
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    border: 0.3rem solid rgb(168, 164, 164);
+    border-radius: 50%;
+    z-index: 500;
+}
+
+.box33:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    opacity: 0.7;
+    top: 40.9em;
+    right: 1em;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    min-height: 30px;
+    border: 0.3rem solid rgb(168, 164, 164);
+    border-radius: 50%;
+    z-index: 500;
+
+}
+
+.box44 {
+    width: 15rem;
+    min-width: 15rem;
+    height: 40rem;
+    min-height: 40rem;
+    opacity: 0.7;
+    border-bottom: 32rem solid rgb(255, 150, 66);
+    position: absolute;
+    z-index: 350;
+    right: 8.6em;
+    top: 32.1em;
+}
+
+.box55 {
+    width: 8.6rem;
+    min-width: 8.6rem;
+    height: 36.3rem;
+    min-height: 36.3rem;
+    opacity: 0.7;
+    border-bottom: 8rem solid rgb(92, 178, 87);
+    border-right: 10rem solid white;
+    position: absolute;
+    z-index: 350;
+    right: 0;
+    top: 36em;
+}
+
+.box66 {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    border-bottom: 38rem solid white;
+    background-color: white;
+    position: absolute;
+    z-index: 50;
+    top: 34rem;
+}
+
