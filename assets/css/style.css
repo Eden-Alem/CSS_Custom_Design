@@ -352,3 +352,115 @@
 }
 
 
+.box1111 {
+    width: 18rem;
+    min-width: 18rem;
+    height: 18rem;
+    min-height: 18rem;
+    opacity: 0.7;
+    border-bottom: 8rem solid rgb(255, 150, 66);
+    position: absolute;
+    z-index: 300;
+    left: 0;
+    top: 98.2em;
+}
+
+.box2222 {
+    width: 18rem;
+    min-width: 18rem;
+    height: 28.2rem;
+    min-height: 28.2rem;
+    opacity: 0.7;
+    border-bottom:28.5rem solid rgb(92, 178, 87);
+    border-bottom-right-radius: 25%;
+    position: absolute;
+    z-index: 400;
+    top: 115.9em;
+    left: 0;
+}
+
+.box3333 {
+    width: 10rem;
+    min-width: 10rem;
+    height: 2.2rem;
+    min-height: 2.2rem;
+    opacity: 0.3;
+    border: 4rem solid rgb(18, 88, 184);
+    border-bottom-right-radius: 70%;
+    position: absolute;
+    z-index: 400;
+    top: 136.4em;
+    left: 8em;
+}
+
+.box4444 {
+    width: 7rem;
+    min-width: 7rem;
+    height: 10rem;
+    min-height: 10rem;
+    opacity: 0.7;
+    border-bottom: 10rem solid white;
+    border-left: 10rem solid rgb(92, 178, 87);
+    position: absolute;
+    z-index: 450;
+    left: 0;
+    top: 115.9em;
+}
+
+.box5555 {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    border-bottom: 35.4rem solid white;
+    background-color: white;
+    position: absolute;
+    z-index: 50;
+    top: 109rem;
+}
+
+.box6666 {
+    position: absolute;
+    width: 212px;
+    min-width: 212px;
+    height: 100px;
+    min-height: 100px;
+    opacity: 0.7;
+    box-sizing: content-box;
+    z-index: 500;
+    left: 7em;
+    top: 73.8em;
+}
+
+.box6666:before {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    opacity: 0.7;
+    top: 40em;
+    right: 0.1em;
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    border: 0.3rem solid rgb(168, 164, 164);
+    border-radius: 50%;
+    z-index: 500;
+}
+
+.box6666:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    opacity: 0.7;
+    top: 40.9em;
+    right: 1em;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    min-height: 30px;
+    border: 0.3rem solid rgb(168, 164, 164);
+    border-radius: 50%;
+    z-index: 500;
+} 
+
