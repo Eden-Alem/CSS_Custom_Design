@@ -223,3 +223,132 @@
     top: 34rem;
 }
 
+
+.box111 {
+    width: 8.6rem;
+    min-width: 8.6rem;
+    height: 18rem;
+    min-height: 18rem;
+    opacity: 0.7;
+    border-bottom: 18rem solid rgb(255, 150, 66);
+    border-right: 18rem solid rgb(18, 88, 184);
+    position: absolute;
+    z-index: 350;
+    right: 0;
+    top: 72em;
+}
+
+.box222 {
+    width: 18rem;
+    min-width: 18rem;
+    height: 35.2rem;
+    min-height: 35.2rem;
+    opacity: 0.7;
+    border-bottom: 19rem solid rgb(18, 88, 184);
+    position: absolute;
+    z-index: 400;
+    top: 73em;
+    right: 0;
+}
+
+.box333 {
+    width: 18rem;
+    min-width: 18rem;
+    height: 15.2rem;
+    min-height: 15.2rem;
+    opacity: 0.7;
+    border: 9rem solid rgb(92, 178, 87);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 400;
+    top: 89.7em;
+    right: 0;
+}
+
+.box444 {
+    width: 10rem;
+    min-width: 10rem;
+    height: 26rem;
+    min-height: 26rem;
+    opacity: 0.2;
+    border-bottom: 10rem solid rgb(18, 88, 184);
+    position: absolute;
+    z-index: 450;
+    top: 73.5em;
+    right: 8em;
+}
+
+.box555 {
+    width: 18rem;
+    min-width: 18rem;
+    height: 18rem;
+    min-height: 18rem;
+    opacity: 0.7;
+    border-bottom: 19.2rem solid rgb(255, 150, 66);
+    position: absolute;
+    border-top-left-radius: 200%;
+    z-index: 300;
+    right: 18em;
+    top: 89em;
+}
+
+.box666 {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    border-bottom: 38rem solid white;
+    background-color: white;
+    position: absolute;
+    z-index: 50;
+    top: 71rem;
+}
+
+.box777 {
+    position: absolute;
+    width: 212px;
+    min-width: 212px;
+    height: 100px;
+    min-height: 100px;
+    box-sizing: content-box;
+    opacity: 0.7;
+    z-index: 500;
+    right: 15.8em;
+    top: 47em;
+}
+
+.box777:before {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    opacity: 0.7;
+    top: 40em;
+    right: 0.1em;
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    border: 0.3rem solid rgb(168, 164, 164);
+    border-radius: 50%;
+    z-index: 500;
+
+}
+
+.box777:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    opacity: 0.7;
+    top: 40.9em;
+    right: 1em;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    min-height: 30px;
+    border: 0.3rem solid rgb(168, 164, 164);
+    border-radius: 50%;
+    z-index: 500;
+
+}
+
+
