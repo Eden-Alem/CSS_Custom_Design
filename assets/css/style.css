@@ -33,6 +33,34 @@
     min-height: 144.5rem;    
 }
 
+/* Set the footer with a background color */
+.wrapper {
+    width: 100%;
+    background: rgb(168, 164, 164, 0.5);
+    padding: 1rem;
+}
+
+/* Align the list items in the footer horizontally using flex */
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items li {
+    list-style: none;
+    border: 1px solid rgb(168, 164, 164);
+    padding: 0.2em;
+}
+
+.select, .resources {
+    margin: 1rem;
+}
+
+.list-items li a {
+    text-decoration: none;
+}
+
 /* Using the properties position and border align the div elements in a creative way  */
 .box1 {
     min-width: 100%;
