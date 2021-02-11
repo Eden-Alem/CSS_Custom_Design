@@ -61,6 +61,19 @@
     text-decoration: none;
 }
 
+/* Displayed the footer icons horizontally using flex */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+    align-items: center;
+}
+
+/* Changed the color of links in the written content with the same color as the background of the footer */
+.main-supporting  a {
+    color: rgb(168, 164, 164);
+}
+
 /* Using the properties position and border align the div elements in a creative way  */
 .box1 {
     min-width: 100%;
