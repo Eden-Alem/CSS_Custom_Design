@@ -532,3 +532,38 @@ footer {
     z-index: 500;
 } 
 
+
+/* Mobile first approach */
+@media(min-width: 750px){
+    /* Increased the font size of the header */
+    .header {
+        color: rgb(168, 164, 164);
+        font-size: xx-large;
+        font-family: 'Crimson Text', serif;
+    }
+    /* Added a box shadow and increased the padding between the written content divs */
+    .main-supporting {
+        text-align: center;
+        position: relative;
+        z-index: 1000;
+    
+        font: 16px/1.4 system-ui, 'Montserrat';
+        padding: 3rem;
+
+        left: 10%;
+        right: 10%;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        font-size: large;
+        width: 80%;
+        min-width: 80%;
+        height: 144.5rem;
+        min-height: 144.5rem;    
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+}
+
