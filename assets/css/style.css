@@ -179,7 +179,6 @@ footer {
 
 }
 
-
 .box11 {
     width: 24rem;
     min-width: 24rem;
@@ -290,7 +289,6 @@ footer {
     z-index: 50;
     top: 34rem;
 }
-
 
 .box111 {
     width: 8.6rem;
@@ -419,7 +417,6 @@ footer {
 
 }
 
-
 .box1111 {
     width: 18rem;
     min-width: 18rem;
@@ -532,7 +529,6 @@ footer {
     z-index: 500;
 } 
 
-
 /* Mobile first approach */
 @media(min-width: 750px){
     /* Increased the font size of the header */
@@ -565,5 +561,23 @@ footer {
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     }
+    /* Created a sliding footer with a sticky position in the bottom and noo z-index property to have it hidden under the main written content */
+    .wrapper {
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(168, 164, 164, 0.5);
+        padding: 2rem;
+
+    }
+    /* Added margin property for spacing between the list items */
+    .list-items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1em;
+    }
+
 }
 
